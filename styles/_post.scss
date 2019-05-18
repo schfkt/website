@@ -1,0 +1,23 @@
+.post {
+  .post-header {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    margin-top: 2rem;
+
+    .post-title {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .post-meta {
+      font-size: 0.85rem;
+      color: #999;
+      text-indent: 0;
+      margin: 0;
+    }
+  }
+
+  img {
+    @extend .img-fluid;
+  }
+}

@@ -1,0 +1,16 @@
+h1 {
+  padding-top: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  color: #777;
+  border-left: 4px solid #ddd;
+  padding: 0 15px;
+  margin-left: 0;
+  margin-right: 0;
+
+  p {
+    margin: auto auto 1.5em;
+  }
+}

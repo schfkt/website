@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <ul class="posts">
+    {{ range where .Pages "Section" "blog" }}
+    <li class="item">
+      <div class="meta">{{ .Date.Format "January 2, 2006" }}</div>
+      <div class="title">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </div>
+      <div class="description">{{ .Description }}</div>
+    </li>
+    {{ end }}
+  </ul>
+{{ end }}

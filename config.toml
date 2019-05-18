@@ -1,0 +1,4 @@
+baseURL = "https://schfkt.github.io/"
+languageCode = "en-us"
+title = "schfkt's website"
+pygmentsUseClasses = true
