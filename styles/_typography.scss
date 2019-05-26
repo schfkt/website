@@ -1,3 +1,15 @@
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
 h1 {
   padding-top: 1rem;
 }
