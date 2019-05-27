@@ -1,0 +1,18 @@
+@import "mixins";
+
+.profile-photo {
+  @extend .image-with-frame;
+
+  display: none;
+  float: right !important;
+
+  width: 256px;
+  height: auto;
+  margin: 1rem 0 1rem 1rem;
+}
+
+@include media-breakpoint-up(md) {
+  .profile-photo {
+    display: block;
+  }
+}

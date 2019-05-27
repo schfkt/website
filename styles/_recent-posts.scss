@@ -1,15 +1,15 @@
 .posts {
   list-style-type: none;
-  padding: 0;
-  padding-top: 3rem;
+  padding: 1rem 0 0;
+  margin: 0;
 
   .item {
-    padding: 2rem 0;
+    padding: 1.75rem 0;
     border-top: 1px #e8e6e3 solid;
 
     &:first-child {
       padding-top: 0;
-      border: none;
+      border-top: none;
     }
 
     .meta {
