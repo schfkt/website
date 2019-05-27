@@ -1,9 +1,13 @@
 {{ define "main" }}
-
   <img src="/images/photo.jpg" alt="Profile photo" class="profile-photo rounded float-right">
-  {{ partial "bio" . }}
+  <h1>Hello there</h1>
 
-  <h1>Recent blog posts:</h1>
+  <p>
+    My name is Pavel and this is my personal place where I share my thoughts
+    with the rest of the world. Mostly in English, but some of the old posts are in Russian.
+    Currently I live in the sunny Cyprus with my girlfriend and a dog.
+  </p>
+
   <ul class="posts">
     {{ range where .Pages "Section" "blog" }}
     <li class="item">
