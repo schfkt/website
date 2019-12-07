@@ -17,7 +17,7 @@
   <div class="separator"></div>
 
   <ul class="posts">
-    {{ range where .Pages "Section" "blog" }}
+    {{ range where .Site.RegularPages "Section" "blog" }}
     <li class="item">
       <div class="meta">{{ .Date.Format "January 2, 2006" }}</div>
       <div class="title">
