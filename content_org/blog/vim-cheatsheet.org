@@ -1,25 +1,30 @@
 #+STARTUP: indent
 #+SETUPFILE: ./setup.org
 #+TITLE: Vim cheatsheet
+#+DATE: 2019-10-15
 #+DESCRIPTION: The list of Vim related commands for quick lookup
 
-I've been using Vim heavily in the last two month. In order to not waste a lot of time looking up a certain feature or key combination, I came up with the idea to create a cheatsheet page for that. The one that I'll keep updated.
+I've been using Vim heavily in the last two month. In order to not waste a lot of time looking up a certain feature or key combination, I came up with the idea to create a cheatsheet page for that.
 
 So here it is. I hope you'll find something useful here too ;)
 
-* Vim
-** CLI
+* CLI
 + ~vim +PluginInstall~ open Vim and run command
-** Tabs
+
+* Tabs
 + ~gt~ go to the next tab
 + ~gT~ go to the previous tab
 + ~<c-w> T~ open current buffer in the new tab
 + ~:tabedit~ open file for editing in a new tab
-** Diff
+
+* Diff
 + ~:diffget~ obtain changes from the other file
 + ~:diffput~ apply changes to the other file
-** Marks
-** Folds
+
+* Marks
+* Folds
++ ~zk~ go to the previous fold
++ ~zj~ go to the next fold
 + ~zM~
 + ~zm~
 + ~zR~
@@ -28,16 +33,25 @@ So here it is. I hope you'll find something useful here too ;)
 + ~zc~
 + ~zO~
 + ~zo~
-** Positioning in the file
-+ ~zt~ position the current line in the top of the window
-+ ~zz~ position the current line in the middle of the window
-+ ~zb~ position the current line in the bottom of the window
-* Plugins
-** CtrlP
+
+* Positioning in the file
++ Position the current line in:
+  + ~zt~ the top of the window
+  + ~zz~ the middle of the window
+  + ~zb~ the bottom of the window
+
+* CtrlP
 + ~<c-t>~ open file in a tab
++ ~<c-v>~ open file in a vertical split
++ ~<c-x>~ open file in a horizontal split
 + ~<c-d>~ switch to search by file name only
-** CtrlSF
+
+* CtrlSF
 + ~<c-c>~ stop the search
 + ~t~ open file in a new tab
 + ~T~ open file in a new tab, but keep focus on CtrlSF
 + ~M~ switch view mode (horizontal or vertical)
+
+* vim-signify
++ ~[c~ go to the previous change
++ ~]c~ go to the next change
