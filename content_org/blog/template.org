@@ -1,4 +1,5 @@
 #+SETUPFILE: ./setup.org
 #+HUGO_DRAFT: true
 #+TITLE:
+#+DATE:
 #+DESCRIPTION:
