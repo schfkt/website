@@ -11,6 +11,22 @@ So here it is. I hope you'll find something useful here too ;)
 * CLI
 + ~vim +PluginInstall~ open Vim and run command
 
+* Splits
++ Move split window:
+  + ~<c-w> H~ left
+  + ~<c-w> J~ down
+  + ~<c-w> K~ up
+  + ~<c-w> L~ right
+
+* QuickFix list
+QuickFix list contains the list of items. For example, if you use YouCompleteMe to find all the variable references, the result is populated into the QuickFix list. The following commands are used to manage the list:
++ ~:copen~ open the list
++ ~:cclose~ close the list
++ ~:cnext~ go to the next item
++ ~:cprev~ go to the previous item
++ ~:colder~ open the previous content of QuickFix (yes, it has history)
++ ~:cnewer~ open the next context of QuickFix
+
 * Tabs
 + ~gt~ go to the next tab
 + ~gT~ go to the previous tab
@@ -21,18 +37,18 @@ So here it is. I hope you'll find something useful here too ;)
 + ~:diffget~ obtain changes from the other file
 + ~:diffput~ apply changes to the other file
 
-* Marks
 * Folds
-+ ~zk~ go to the previous fold
-+ ~zj~ go to the next fold
-+ ~zM~
-+ ~zm~
-+ ~zR~
-+ ~zr~
-+ ~zC~
-+ ~zc~
-+ ~zO~
-+ ~zo~
++ Go to:
+  + ~zk~ the previous fold
+  + ~zj~ the next fold
++ ~zm~ fold one level more
++ ~zM~ close all folds
++ ~zr~ reduce folding by one level
++ ~zR~ open all folds
++ ~zc~ close one fold under the cursor
++ ~zC~ close all folds under the cursor recursively
++ ~zo~ open one fold under the cursor
++ ~zO~ open all folds under the cursor recursively
 
 * Positioning in the file
 + Position the current line in:

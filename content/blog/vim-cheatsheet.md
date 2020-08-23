@@ -1,9 +1,8 @@
 +++
 title = "Vim cheatsheet"
-author = ["PI"]
 description = "The list of Vim related commands for quick lookup"
 date = 2019-10-15
-lastmod = 2019-12-07T20:46:42+02:00
+lastmod = 2020-08-23T20:45:54+03:00
 draft = false
 +++
 
@@ -15,6 +14,27 @@ So here it is. I hope you'll find something useful here too ;)
 # CLI {#cli}
 
 -   `vim +PluginInstall` open Vim and run command
+
+
+# Splits {#splits}
+
+-   Move split window:
+    -   `<c-w> H` left
+    -   `<c-w> J` down
+    -   `<c-w> K` up
+    -   `<c-w> L` right
+
+
+# QuickFix list {#quickfix-list}
+
+QuickFix list contains the list of items. For example, if you use YouCompleteMe to find all the variable references, the result is populated into the QuickFix list. The following commands are used to manage the list:
+
+-   `:copen` open the list
+-   `:cclose` close the list
+-   `:cnext` go to the next item
+-   `:cprev` go to the previous item
+-   `:colder` open the previous content of QuickFix (yes, it has history)
+-   `:cnewer` open the next context of QuickFix
 
 
 # Tabs {#tabs}
@@ -31,21 +51,19 @@ So here it is. I hope you'll find something useful here too ;)
 -   `:diffput` apply changes to the other file
 
 
-# Marks {#marks}
-
-
 # Folds {#folds}
 
--   `zk` go to the previous fold
--   `zj` go to the next fold
--   `zM`
--   `zm`
--   `zR`
--   `zr`
--   `zC`
--   `zc`
--   `zO`
--   `zo`
+-   Go to:
+    -   `zk` the previous fold
+    -   `zj` the next fold
+-   `zm` fold one level more
+-   `zM` close all folds
+-   `zr` reduce folding by one level
+-   `zR` open all folds
+-   `zc` close one fold under the cursor
+-   `zC` close all folds under the cursor recursively
+-   `zo` open one fold under the cursor
+-   `zO` open all folds under the cursor recursively
 
 
 # Positioning in the file {#positioning-in-the-file}
