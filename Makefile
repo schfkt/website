@@ -9,8 +9,7 @@ build:
 publish: build
 	cd public && \
 		git add . && \
-		git commit -m "Rebuild the site on `date`" &&  \
-		git push origin HEAD
+		git commit -m "Rebuild the site on `date`"
 
 .PHONY: server
 server:
