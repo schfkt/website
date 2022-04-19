@@ -2,6 +2,8 @@ SHELL := /bin/bash
 
 .PHONY: build publish server
 
+default: build
+
 build:
 	yarn build
 	hugo
