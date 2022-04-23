@@ -348,3 +348,9 @@ XDG_RUNTIME_DIR=/run/user/$UID systemctl status --user restic-backup.timer
 Otherwise systemd will complain that it can't connect to dbus.
 
 And that's it. Now you have an automated backup system that keeps your data in the cloud, and, more importantly, it encrypts and deduplicates all the data.
+
+# Update on April 2022
+
+I've been using this setup on a couple of home servers for 1.5 years. There is around 240Gb stored at the moment, and it
+costs me just 1.31 EUR (1.42 USD). And it proved to be reliable too: I had to restore the whole data at least once, and
+it went with no issues at all.
