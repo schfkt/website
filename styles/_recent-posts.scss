@@ -27,9 +27,13 @@
     }
 
     .description {
-      margin-top: 0.5rem;
+      margin: 0.6rem 0;
 
       &:empty {
+        margin: 0;
+      }
+
+      p {
         margin: 0;
       }
     }

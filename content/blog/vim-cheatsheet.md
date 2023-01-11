@@ -1,6 +1,5 @@
 +++
 title = "Vim cheatsheet"
-description = "The list of Vim related commands for quick lookup"
 date = 2019-10-15
 lastmod = 2020-08-23T20:45:54+03:00
 draft = false
@@ -9,6 +8,8 @@ draft = false
 I've been using Vim heavily in the last two month. In order to not waste a lot of time looking up a certain feature or key combination, I came up with the idea to create a cheatsheet page for that.
 
 So here it is. I hope you'll find something useful here too ;)
+
+<!--more-->
 
 
 # CLI {#cli}
@@ -41,6 +42,7 @@ QuickFix list contains the list of items. For example, if you use YouCompleteMe 
 
 -   `gt` go to the next tab
 -   `gT` go to the previous tab
+-   `5gt` go to tab 5
 -   `<c-w> T` open current buffer in the new tab
 -   `:tabedit` open file for editing in a new tab
 
@@ -65,22 +67,12 @@ QuickFix list contains the list of items. For example, if you use YouCompleteMe 
 -   `zo` open one fold under the cursor
 -   `zO` open all folds under the cursor recursively
 
-
 # Positioning in the file {#positioning-in-the-file}
 
 -   Position the current line in:
     -   `zt` the top of the window
     -   `zz` the middle of the window
     -   `zb` the bottom of the window
-
-
-# CtrlP {#ctrlp}
-
--   `<c-t>` open file in a tab
--   `<c-v>` open file in a vertical split
--   `<c-x>` open file in a horizontal split
--   `<c-d>` switch to search by file name only
-
 
 # CtrlSF {#ctrlsf}
 

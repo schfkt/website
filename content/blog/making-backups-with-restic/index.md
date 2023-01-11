@@ -1,15 +1,11 @@
 ---
 title: "Making backups in the cloud with restic"
 date: 2020-08-25
-description: "Or how I automatically backup my data offsite"
 ---
 
-# Intro
-
-> There're two types of people: the ones who don't do backups yet,
-and the ones who already do -- Somebody on the Internet
-
 I broke my iPhone recently, and the worst thing is that there were around 60GB of photos and videos inside... But, lucky me, I did a complete backup of it a month ago. You might ask: "Why don't you just upload your photos to iCloud? It's cheap, simple, and you get all of yout photos everywhere: on your mac, etc.". Yeah, it's good, simple and works well, until it doesn't. I had to recreate my whole iCloud Photo library twice, just because it stopped syncing data with no reason. And it happenned long time ago, when I just had around 20GB of data. Imagine recreating the library with 60GB of data...
+
+<!--more-->
 
 And it's not only about photos. I need to backup different kind of data. Books, configs, notes. And for safety and privacy reasons it must be encrypted.
 
@@ -352,5 +348,5 @@ And that's it. Now you have an automated backup system that keeps your data in t
 # Update on April 2022
 
 I've been using this setup on a couple of home servers for 1.5 years. There is around 240Gb stored at the moment, and it
-costs me just 1.31 EUR (1.42 USD). And it proved to be reliable too: I had to restore the whole data at least once, and
-it went with no issues at all.
+costs me just 1.31 EUR (1.42 USD) per month. And it proved to be reliable too: I had to restore the whole data at least
+once, and it went with no issues at all.

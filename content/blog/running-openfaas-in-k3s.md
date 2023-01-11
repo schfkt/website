@@ -1,10 +1,11 @@
 ---
 title: "Running OpenFAAS on a local kubernetes cluster"
 date: 2020-10-31
-description: "An easy way to play with Kubernetes and OpenFAAS locally"
 ---
 
 A couple of years ago when I just started familiarizing myself with kubernetes, I found minikube. It let you deploy a local kubernetes cluster within a virtual machine. But I didn't manage to make it work. There were, among others, some issues with compiling of libvirt and kernel modules on Fedora. Eventually I stopped trying and dropped the idea of running k8s locally to play with it.
+
+<!--more-->
 
 Recently I've been experimenting with OpenFAAS to offload certain workload to lambdas. OpenFAAS is similar to other FAAS, but the one that you can run on your own infrastructure. You can deploy it to either k8s or Docker Swarm. I use k8s, so I wanted to test everything out before deploying it to a real Kubernetes cluster.
 
