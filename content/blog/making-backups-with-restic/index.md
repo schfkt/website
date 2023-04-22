@@ -350,3 +350,12 @@ And that's it. Now you have an automated backup system that keeps your data in t
 I've been using this setup on a couple of home servers for 1.5 years. There is around 240Gb stored at the moment, and it
 costs me just 1.31 EUR (1.42 USD) per month. And it proved to be reliable too: I had to restore the whole data at least
 once, and it went with no issues at all.
+
+# Update on April 2023
+
+Here are some stats after one more year of using this setup:
+
+- 424Gb of data stored (the actual repository size at B2 is smaller thanks to deduplication: 402.5Gb)
+- It took around 13 hours to restore (download speed was around 50Mbit/sec), restic used ~480Mb of RSS memory, and a bit of CPU (10-20%)
+- Storage cost: 2.24 EUR
+- Restore cost: 4.13 EUR
