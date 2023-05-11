@@ -357,5 +357,9 @@ Here are some stats after one more year of using this setup:
 
 - 424Gb of data stored (the actual repository size at B2 is smaller thanks to deduplication: 402.5Gb)
 - It took around 13 hours to restore (download speed was around 50Mbit/sec), restic used ~480Mb of RSS memory, and a bit of CPU (10-20%)
-- Storage cost: 2.24 EUR
+- Storage cost: 2.24 EUR / Month
 - Restore cost: 4.13 EUR
+
+There's one important thing that I noticed during this restore run. In order to restore not just files, but their
+correct permissions and ownership information, `restic restore` has to be run as `root`. Otherwise, all the restored
+files will be owned by a user who run the restore command.
