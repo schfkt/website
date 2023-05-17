@@ -4,4 +4,5 @@ title = "schfkt's website"
 pygmentsUseClasses = true
 
 [params]
-  Description = "schfkt's personal place to share thoughts with the rest of the world"
+  description = "schfkt's personal place to share thoughts with the rest of the world"
+  email = "ivpavig@gmail.com"

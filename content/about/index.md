@@ -23,4 +23,4 @@ Apart from that, I really like sports: swimming, cycling, running.
 -   [LinkedIn](https://www.linkedin.com/in/ivpavig)
 -   [GitHub](https://github.com/schfkt)
 
-Or just [drop me a line](mailto:ivpavig@gmail.com).
+Or just [drop me a line](mailto:{{< param Email >}}).
