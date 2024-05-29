@@ -363,3 +363,16 @@ Here are some stats after one more year of using this setup:
 There's one important thing that I noticed during this restore run. In order to restore not just files, but their
 correct permissions and ownership information, `restic restore` has to be run as `root`. Otherwise, all the restored
 files will be owned by a user who run the restore command.
+
+# Update on April 2024
+
+Another year, another update:
+
+- 573Gb of data stored (+149Gb)
+- Restic stats:
+  - Repository size: 555Gb
+  - Snapshots: 273
+- Restore time: 18h25m (at ~100Mbps)
+- Storage cost: 3.62 EUR / month
+- Restore cost: free, since Backblaze recently made all egress traffic free! See [this
+  blog post](https://www.backblaze.com/blog/2023-product-announcement/) for more details.
