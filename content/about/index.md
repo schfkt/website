@@ -23,4 +23,6 @@ Apart from that, I really like sports: swimming, cycling, running.
 -   [LinkedIn](https://www.linkedin.com/in/ivpavig)
 -   [GitHub](https://github.com/schfkt)
 
-Or just [drop me a line](mailto:{{< param Email >}}).
+Or just {{< rawhtml >}}
+<a class="plausible-event-name=Email+Clicked" href="mailto:{{< param Email >}}">drop me a line</a>
+{{< /rawhtml >}}
