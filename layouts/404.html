@@ -1,5 +1,14 @@
 {{ define "main" }}
 <h1>Not Found</h1>
 
-<p>Here be dragons.</p>
+<p>This page cannot be found. You might find these interesting instead:</p>
+
+<ul>
+  {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a> – {{ .Date.Format "January 2, 2006" }}
+  </li>
+  {{ end }}
+</ul>
+
 {{ end }}
