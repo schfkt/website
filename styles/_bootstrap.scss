@@ -4,7 +4,9 @@
 
 $body-color: #444;
 $code-color: inherit;
-$link-color: #0984e3;
+$link-color: #1e293b;
+$link-decoration: underline;
+$link-hover-color: darken($link-color, 15%);
 
 $font-family-sans-serif: "Open Sans", sans-serif;
 $font-family-base: $font-family-sans-serif;
