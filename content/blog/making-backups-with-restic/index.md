@@ -376,3 +376,19 @@ Another year, another update:
 - Storage cost: 3.62 EUR / month
 - Restore cost: free, since Backblaze recently made all egress traffic free! See [this
   blog post](https://www.backblaze.com/blog/2023-product-announcement/) for more details.
+
+# Update on August 2025
+
+A bit later this year :)
+
+- 886Gb of data stored (+313Gb)
+- Restic stats:
+  - Repository size: 845Gb
+  - Snapshots: 396
+- Restore time: 8h26m (at ~300Mbps)
+- Resources: ~700Mb memory, 3% CPU
+- Storage cost: 5.43 EUR / month
+
+Though, the setup is a bit simpler nowadays: all these root capabilities tricks and messing up with systemd timers
+aren't worth it, so I just run a simple cron job as root instead. And it's a signle job that combines both:
+backup, and forget (stole that idea from nixos).
